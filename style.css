@@ -17,7 +17,7 @@ body {
   margin:25px;
   display:inline-block;
   text-align: center;
- background-color:green;
+  background-color:green;
   color: white;
 }
 .logo .name {
@@ -28,11 +28,11 @@ body {
 .forMedia {
   position:absolute;
   display:inline-block;
-    top:25px;
+  top:25px;
   right:8px;
   height:60px;
   width:250px;
-   text-align: center;
+  text-align: center;
 }
 .forMedia div {
   margin-right:5px;
@@ -40,45 +40,45 @@ body {
 }
 
 .bemvindo-window {
-height:50px;
-width:100px;
-display:flex;
-font-size:15px;
-border:red solid 1px;
-text-align: center;
+  height:50px;
+  width:100px;
+  display:flex;
+  font-size:15px;
+  border:red solid 1px;
+  text-align: center;
   justify-content: center;
   align-items: center;
- vertical-align: middle;
-background-color:silver;
-cursor:pointer;
-float:left;
+  vertical-align: middle;
+  background-color:silver;
+  cursor:pointer;
+  float:left;
 }
 
 
 .entrar {
-height:50px;
-width:80px;
-display:inline-block;
-font-size:20px;
-line-height: 250%;
-border:red solid 1px;
-text-align: center;
-background-color:silver;
- cursor:pointer;
- float:left;
+  height:50px;
+  width:80px;
+  display:inline-block;
+  font-size:20px;
+  line-height: 250%;
+  border:red solid 1px;
+  text-align: center;
+  background-color:silver;
+  cursor:pointer;
+  float:left;
 }
 
 
 .menu {
-height:50px;
-width:40px;
-display:inline-block;
-border:red solid 1px;
- line-height: 60%;
- text-align: center;
-background-color:silver;
- cursor:pointer;
- float:left;
+  height:50px;
+  width:40px;
+  display:inline-block;
+  border:red solid 1px;
+  line-height: 60%;
+  text-align: center;
+  background-color:silver;
+  cursor:pointer;
+  float:left;
 } 
 .menu-stick {
   height:3px;
@@ -91,19 +91,20 @@ background-color:silver;
 }
 
 .nav {
-height:50px;
-width:100%;
- line-height: 3em;
-background-color: #F08080;
+  height:50px;
+  width:100%;
+  line-height: 3em;
+  background-color: #F08080;
 }
 .nav ul {
-margin:0;
+  margin:0;
+  padding:0;
 }
 .nav li {
-display:inline-block;
-width:24%;
-text-align:center;
-list-style-type:none;
+  display:inline-block;
+  width:19.5%;
+  text-align:center;
+  list-style-type:none;
 }
 .nav a {
   cursor:pointer;
@@ -120,7 +121,7 @@ main {
   display:flex;
   flex-wrap:wrap;
   flex-direction:row;
- justify-content:space-around;
+  justify-content:space-around;
 
 }
 
@@ -142,14 +143,14 @@ main {
 
 .type-of-dance {
 
-    font-size: 20px;
-    text-decoration: none;
-    color:#696969;
-   }
-   .name-of-article {
-     text-decoration: none;
-      color:#FF00FF;
-   }
+  font-size: 20px;
+  text-decoration: none;
+  color:#696969;
+}
+.name-of-article {
+ text-decoration: none;
+ color:#FF00FF;
+}
 .article img {
   height:200px;
   width:300px;
@@ -164,27 +165,34 @@ main {
 
 footer {
   position:relative;
-width:100%;
-height:5em;
-background-color:#F08080;
+  width:100%;
+  height:5em;
+  background-color:#F08080;
 }
 footer p {
   position:absolute;
-padding-left:20px;
-margin-top: -0.625em;
-top: 50%;
-color:#E6E6FA;
+  padding-left:20px;
+  margin-top: -0.625em;
+  top: 50%;
+  color:#E6E6FA;
 }
 
-@media (max-width:400px) {
-    .header, .nav, main {
-      width: 400px;
-    }
-    
-.forMedia {
-  top:25px;
-left:240px;
-}
-.container-for-bubble-window {
-  left:168px;
+@media (max-width:660px) {
+  .header, .nav, main, footer {
+    width: 660px;
   }
+  .article-container {
+    min-width:450px;
+  }
+
+  .forMedia {
+    top:25px;
+    left:390px;
+  }
+  .container-for-bubble-window {
+    left:240px;
+  }
+}
+
+
+
